@@ -18,7 +18,7 @@ A user-friendly Online Bookstore project in which users can log in or register, 
 - Maintaining books selling history.
 - Adding and managing books.
 - User Friendly.
-- For Implementation of Http Servlets in Java.
+- For Implementation of Http Servlets in Java .
 - This is a Mini-project developed using Java, Jdbc, And Servlets.
 
 <span style="color:blue">**Admin Have Following Access for this online store site:-**</span>
