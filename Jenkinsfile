@@ -29,7 +29,10 @@ stage('genaerate artifact') {
 stage('deploy') {
             steps {
                 
-deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'Tomcatcredentials', path: '', url: 'http://localhost:8080/')], contextPath: null, war: 'target/*.war'   }
+deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'Tomcatcredentials', path: '', url: 'http://localhost:8080/')], contextPath: null, war: 'target/*.war'  
+
+
+ }
         }
 
 
@@ -39,5 +42,5 @@ deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'Tomc
     }
 	
 	}
-	}
+	
 	
